@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?1ggp30');
+  src:  url('fonts/icomoon.eot?1ggp30#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?1ggp30') format('truetype'),
+    url('fonts/icomoon.woff?1ggp30') format('woff'),
+    url('fonts/icomoon.svg?1ggp30#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-address:before {
+  content: "\e900";
+}
+.icon-email:before {
+  content: "\e901";
+}
+.icon-facebook-logo-button:before {
+  content: "\e902";
+}
+.icon-instagram-logo:before {
+  content: "\e903";
+}
+.icon-linkedin-button:before {
+  content: "\e904";
+}
+.icon-paint-board-and-brush:before {
+  content: "\e905";
+}
+.icon-smartphone:before {
+  content: "\e906";
+}
+.icon-twitter-logo-button:before {
+  content: "\e907";
+}
+.icon-web-development:before {
+  content: "\e908";
+}
+.icon-website-design-symbol:before {
+  content: "\e909";
+}

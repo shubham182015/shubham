@@ -7,7 +7,13 @@
 }
 
 @media screen and (max-width:767px) {
-
+  .for_mobile {
+    position: absolute;
+    top: 100px;
+    bottom: 100%;
+    left: 0;
+    width: 0;
+  }
   header {
     background-color: #212121;
     font-family: 'Montserrat', sans-serif;
@@ -95,9 +101,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     text-align: center;
-    max-height: 600px;
-    height: 100vh;
-    box-sizing: border-box;
+    height: 55vh;
   }
   .para_main {
     color: #fff;
@@ -129,6 +133,7 @@
     color: #000;
     margin-bottom: 12px;
     font-size: 25px;
+    position: relative;
   }
   .the_beard{
     color: #000;

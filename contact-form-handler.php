@@ -1,6 +1,6 @@
 <?php
 $errors = '';
-$myemail = 'yourname@website.com';//<-----Put Your email address here.
+$myemail = 'tabtch034@gmail.com';//<-----Put Your email address here.
 if(empty($_POST['name'])  ||
    empty($_POST['email']) ||
    empty($_POST['msg']))
@@ -31,7 +31,7 @@ if( empty($errors))
 
 	mail($to,$email_subject,$email_body,$headers);
 	//redirect to the 'thank you' page
-	header('Location: index.html#contact_us');
+	header('Location: https://shubham182015.github.io/shubham/');
 }
 ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">

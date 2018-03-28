@@ -95,13 +95,13 @@
   #hamburger a:visited {
     color: #fff;
   }
-  .background_image {
+  .background_main {
     background-color: #212121;
     padding: 160px 0 100px;
     background-size: contain;
     background-repeat: no-repeat;
     text-align: center;
-    height: 80vh;
+    height: 62vh;
   }
   .para_main {
     color: #fff;
@@ -119,7 +119,7 @@
     padding: 8px 20px;
     display: inline-block;
     border-radius: 25px;
-    margin-top: 23px;
+    margin-top: 40px;
     color: #fff;
     margin-right: 10px;
     outline: none;
@@ -401,7 +401,7 @@
   #hamburger a:visited {
     color: #fff;
   }
-  .background_image {
+  .background_main {
     background-color: #212121;
     padding: 190px 150px!important;
     background-size: contain;
@@ -544,7 +544,7 @@
     border: none;
     border-radius: 5px;;
     padding: 10px;
-    width: 174px;
+    width: 161px;
     margin-bottom: 10px;
     outline: none;
   }
@@ -732,7 +732,7 @@
   #hamburger a:hover {
     color: #d7b065;
   }
-  .background_image {
+  .background_main {
     background-color: #212121;
     padding-top: 150px;
     padding-bottom: 150px;
@@ -874,7 +874,8 @@
     border: none;
     border-radius: 5px;;
     padding: 10px;
-    width: 174px;margin-bottom: 10px;
+    width: 161px;
+    margin-bottom: 10px;
     outline: none;
   }
   .contact_us form table {

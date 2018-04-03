@@ -5,8 +5,13 @@
 .footer {
   font-family: Helvetica, Arial, sans-serif;
 }
-
 @media screen and (max-width:767px) {
+  .for_scroll {
+    height: 60px;
+  }
+  .for_scroll2 {
+    height: 60px;
+  }
   .for_mobile {
     position: absolute;
     top: 100px;
@@ -333,13 +338,11 @@
 }
 
 @media screen and (min-width:768px) and (max-width:1199px) {
-  .for_scroll_tablet{
-    position: absolute;
-    width: 0;
-    height: 100px;
-    left: 0;
-    bottom: 100%;
-    background: red;
+  .for_scroll {
+    height: 80px;
+  }
+  .for_scroll2 {
+    height: 50px;
   }
   header {
     background-color: #212121!important;
@@ -656,6 +659,12 @@
 }
 
 @media screen and (min-width:1200px) {
+  .for_scroll {
+    height: 60px;
+  }
+  .for_scroll2 {
+    height: 90px;
+  }
   a {
     cursor: pointer;
   }
@@ -680,14 +689,6 @@
   }
   a {
     text-decoration: none;
-  }
-  .for_scroll {
-    position: absolute;
-    width: 0;
-    height: 60px;
-    left: 0;
-    bottom: 100%;
-    background: red;
   }
   .container_logo {
     font-size: 40px;
@@ -901,7 +902,7 @@
     outline: none;
   }
   .contact_us form {
-    margin-left: 465px;
+    margin-left: 480px;
   }
   .contact_us form .form_button {
     width: 10%;

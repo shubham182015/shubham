@@ -853,6 +853,7 @@
   }
   #hamburger a:hover {
     color: #d7b065;
+    transition-duration: 0.3s;
   }
   .background_main {
     background-color: #212121;
@@ -881,6 +882,11 @@
     margin-top: 23px;
     color: #fff;
     outline: none;
+  }
+  .button_main:hover {
+    background-color: #fff;
+    transition-duration: 0.3s;
+    color: #d7b065;
   }
   .about_me {
     background-color: #fff;
@@ -1096,6 +1102,11 @@
     border: none;
     padding: 10px;
     outline: none;
+    cursor: pointer;
+  }
+  .contact_us form .form_button:hover {
+    background-color: #212121;
+    transition-duration: 0.3s;
   }
   footer {
     background-color: #212121;
